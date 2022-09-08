@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="Wonderful.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- -----------------------------Navigation---------------------------- -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <h1 class="logo">ADVENTURE</h1>
+            <a href="#" class="menu-btn" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
+            <ul class='nav-links1' id="nav-links1">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <p>Explore The Colorful World</p>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- --------------------------Section---------------------------- -->
+    <section>
+        <div class="title">
+            <h1>Upcomming Events</h1>
+        </div>
+        <div class="line"></div>
+        <div class="events">
+            <div class="col1">
+                <img src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg1.png?alt=media&token=f0ebf276-3208-493e-8344-7d78addec67c"
+                    alt="">
+                <h2>Everest Camp Track</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa provident voluptate.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col2">
+                <img src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg2.png?alt=media&token=ad8355c4-d967-4229-90dd-6f1f4af736f3"
+                    alt="">
+                <h2>Walking Holidays</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ipsa provident voluptate.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ----------------------------------Explore-------------------------- -->
+    <section>
+        <div class="explore-content">
+            <h1> EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, repellendus.<br>
+                Recusandae nam dolores vitae animi pariatur reiciendis quos est soluta.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- ----------------------Tours---------------------------- -->
+    <section>
+        <div class="tours">
+            <div class="tours-content">
+                <h1>UPCOMMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ullam accusamus vero similique quibusdam vitae magnam fugit obcaecati dolore vel earum, suscipit,
+                    voluptatem nobis qui nam animi harum quia ducimus ab.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="tours-images">
+                <div class="grid"><img
+                        src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg3.png?alt=media&token=a8a4c71e-13f6-4619-b5c8-7d7fd5598ece"
+                        alt=""></div>
+                <div class="grid"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg3.png?alt=media&token=a8a4c71e-13f6-4619-b5c8-7d7fd5598ece"
+                        alt=""></div>
+                <div class="grid"> <img
+                        src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg5.png?alt=media&token=478f81d3-101c-4672-aa08-ccc5a3957542"
+                        alt=""></div>
+                <div class="grid"><img
+                        src="https://firebasestorage.googleapis.com/v0/b/crudwithcand-20d04.appspot.com/o/Wonderful%2Fimg6.png?alt=media&token=b3e23db2-1b6d-4060-9e68-00411b38a3ad"
+                        alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------------footer---------------------------- -->
+    <section>
+        <div class="footer">
+            <p>123 Fifth Avenue, NY 10160, New York, USA| Phone: 800-123-456 | Email: contact@example</p>
+            <P>Copyright c 2020 Outdoor Adventure</P>
+        </div>
+    </section>
+
+
+    <script>
+        // <!-- -------------------------------Menu-bar------------------------ -->
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector(".nav-links1")
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })        
+    </script>
+</body>
+
+</html>
